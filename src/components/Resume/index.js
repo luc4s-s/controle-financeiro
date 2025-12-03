@@ -23,11 +23,11 @@ const Resume = ({income, expense, total}) => {
 
     <ResumeItem 
         title="Total"
-        Icon={FaDollarSign}
-        value={total}/>
+        Icon={FaRegArrowAltCircleDown}
+        value={expense}/>
 
    </C.Container>
   )
 }
 
-export default Resume;
+export default Resume
