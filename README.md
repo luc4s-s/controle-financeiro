@@ -1,7 +1,7 @@
 
 ## 📌 Controle Financeiro
 
-Gerenciador de Tarefas (To-Do List) Desenvolvi uma interface interativa para organização pessoal que permite ao usuário criar, gerenciar e excluir tarefas. O destaque da aplicação é o feedback visual de status: tarefas concluídas são marcadas instantaneamente com uma linha sobre o texto (efeito riscado), facilitando a distinção entre o que está pendente e o que já foi feito, além de permitir a remoção completa de itens desnecessários com um clique.
+O Controle Financeiro é uma aplicação desenvolvida em React que permite ao usuário registrar e acompanhar suas movimentações financeiras de maneira simples e intuitiva. O sistema possibilita adicionar uma descrição, valor e selecionar o tipo da transação, indicando se é uma entrada ou saída. Após o registro, a aplicação exibe automaticamente o total de entradas, total de saídas e o saldo geral, facilitando o controle do orçamento.
 
 ---
 
@@ -28,10 +28,12 @@ Gerenciador de Tarefas (To-Do List) Desenvolvi uma interface interativa para org
 
 ## 📝 Funcionalidades
 
-[x] Adição de Tarefas: Permite a inserção dinâmica de novos itens na lista.
+[x] Adição de Transações: Permite registrar novas movimentações financeiras informando descrição, valor e tipo (entrada ou saída).
 
-[x] Controle de Conclusão: Ao clicar sobre uma tarefa, o texto recebe uma linha horizontal (tachado), indicando visualmente que a atividade foi finalizada, sem excluí-la da vista.
+[x] Classificação Visual: Cada transação exibida possui um ícone correspondente — seta verde para cima nas entradas e seta vermelha para baixo nas saídas — facilitando a identificação rápida.
 
-[x] Remoção de Itens: Possui uma função de exclusão que remove a tarefa definitivamente da lista, mantendo a interface limpa.
+[x] Cálculo Automático: O sistema soma automaticamente o total de entradas, o total de saídas e o saldo final, atualizando os valores conforme novas transações são adicionadas.
 
-![imagem do projeto ](src/assets/to-do-list.png)
+[x] Listagem das Movimentações: Todas as transações inseridas são exibidas em uma lista organizada contendo descrição, valor e tipo da operação.
+
+![imagem do projeto ](src/assets/controle-financeiro.png)
