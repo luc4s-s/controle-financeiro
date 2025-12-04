@@ -13,16 +13,16 @@ O Controle Financeiro é uma aplicação desenvolvida em React que permite ao us
 ---
 ## ⚙ Como rodar o projeto
 1 - Clone o repositório
-    - git clone (url)
+- git clone (url)
 
 2 - Instale as dependeências
-    - yarn install
+- yarn install
 
 3 - Execute o projeto
-    - yarn start
+- yarn start
 
-4 - Se Der erro na instalacao
-    - npm install -g yarn
+4 - Se Der erro na instalação
+- npm install -g yarn
 
 ---
 
